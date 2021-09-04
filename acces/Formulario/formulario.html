@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
-<body>
+<body> <div>
     <form action="./action.html" method="GET">
-        <label for="name">NOMBRE</label>
+        <label for="name">NOMBRE</label> <br> 
         <input type="text" name="name" id="name" placeholder="Anota tu nombre">
+    </div> <br>
+    <div>
+        <label for="age">Edad</label>
+        <input type="number" name="edad" id="edad" max="50" step="2" required> 
+    </div><br>
         
         <input type="submit" value="guardar">
     </form>
