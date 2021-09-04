@@ -7,6 +7,8 @@
     <title>Formulario</title>
 </head>
 <body> <div>
+    <!--Existen 2 tipos principales de accion GET y POST-->
+
     <form action="./action.html" method="GET">
         <label for="name">NOMBRE</label> <br> 
         <input type="text" name="name" id="name" placeholder="Anota tu nombre">
@@ -15,7 +17,13 @@
         <label for="age">Edad</label>
         <input type="number" name="edad" id="edad" max="50" step="2" required> 
     </div><br>
-        
+        <div>
+            <div>
+                <label for="description">Descripcion</label>
+            </div>
+            <!--el valor por defecto va entre la apertura y el cierre de la etiqueta -->
+            <textarea name="descripcion" id="descripcion" cols="20" rows="10" placeholder="Descripcion"></textarea>
+        </div>
         <input type="submit" value="guardar">
     </form>
 </body>
