@@ -49,9 +49,33 @@
     top: 32%;
 }
 #estados{
+    position: absolute;
+    left: 35%;
     border: 1px solid  black;
    border-radius: 5px;
    padding: 5px;
-   width: 160px;
+   width: 240px;
     
+}
+#zip{
+    position: absolute;
+    left: 55%;
+    top: 32%;  
+}
+
+#zip2{
+    border: 1px solid  black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 160px;
+    position: absolute;
+    left: 55%;
+}
+
+#button{
+    background-color: rgb(0, 132, 255); color: whitesmoke;
+    border: 1px solid  black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 70px;
 }
