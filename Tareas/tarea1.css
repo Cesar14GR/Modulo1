@@ -1,0 +1,57 @@
+    
+    
+
+#correo{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+}
+#contrasena{
+   position: absolute;
+   left: 35%;
+   top: 4%;
+   border: 1px solid  black;
+   border-radius: 5px;
+   padding: 5px;
+   width: 420px;
+   
+}
+#password{
+    position: absolute;
+    left: 35%;
+    top: 1%;
+}
+
+#direccion{
+    border: 1px solid  black;
+   border-radius: 5px;
+   padding: 5px;
+   width: 420px;
+}
+
+#direccion2{
+    border: 1px solid  black;
+   border-radius: 5px;
+   padding: 5px;
+   width: 420px;
+}
+#ciudad{
+    border: 1px solid  black;
+   border-radius: 5px;
+   padding: 5px;
+   width: 420px;
+}
+
+#state{
+    position: absolute;
+    left: 35%;
+    top: 32%;
+}
+#estados{
+    border: 1px solid  black;
+   border-radius: 5px;
+   padding: 5px;
+   width: 160px;
+    
+}
