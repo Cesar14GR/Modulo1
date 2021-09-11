@@ -1,4 +1,4 @@
-/*Selector adyacente */
-div + p{
+/*Selector general de hermanos */
+div ~ p{
     background-color: yellow;
 }
