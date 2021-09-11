@@ -1,0 +1,23 @@
+#selector-id{
+    background-color: blue;
+}
+
+.selector-clase{
+    background-color: coral;
+}
+p{
+    color: darkred;
+}
+.selector-clase-2{
+    border: darkred;
+    border-style: solid;
+    border-width: 2px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+}
+p.selector-clase{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
