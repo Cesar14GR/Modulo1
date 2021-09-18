@@ -8,7 +8,33 @@
 </head>
 <body>
         <script>
-            
+            const edad = Number (prompt('Ingresa tu edad:'));
+            if (edad<20){
+                console.log('Eres menor de 20 años');
+            } else if (edad >= 20 && edad <= 40){
+                console.log('Tienes entre 20 y 40 años');
+            }else{
+                console.log('Eres mayor de 40');
+            }
+            // Condicion Compuesta
+            if((edad >= 0) && (edad <= 100)){  //ejemplo operacion aritmetica
+                console.log(edad + 'el rango esta entre el 0 a 100')
+            }
+
+            //switch
+            const daynumber = new Date().getDay();
+            switch(daynumber){
+                case 6:
+                    const text = 'Hoy es sabado'
+                    break;
+                    case 0:
+                        const text = 'Hoy es domingo'
+                        break;
+                        default:
+                            const text = 'Hoy es un dia entre semana'
+            }
+
+            document.write(text);
         </script>
 </body>
 </html>
